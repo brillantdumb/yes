@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Space Groove</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Assignment 3">
+<meta name="keywords" content="Assignment 3, lab,Html,CSS,images,Footer">
+<meta name="author" content="Jonathan Seltzer">
+<link href="images/mars.gif" rel="icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="">
+<style>
+  body {
+    background-color: black;
+    margin:15px;
+    background-image: url(images/space.jpg);
+  }
+ 
+  /* Style the header */
+  
+  .header{
+    padding:20px;
+  }
+  .header h1{
+    text-align: center;
+    font-size:100px;
+    color: #fcfbfe;
+    font-family: "Audiowide", sans-serif;
+  }
+  .header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 205px;
+  }
+  .header {
+ background-image: url(images/space.jpg);
+  }
+
+  /* Style the top navigation bar */
+
+  .navbar {
+    overflow: hidden;
+    background-color: #7649fe;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    font-family: "Audiowide", sans-serif;
+}
+  
+  /* Style the topnav links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #1d1135;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ba1e68;
+  }
+  
+  .section2{
+    background-color: #0c164f;
+    padding-bottom: 100px;
+  }
+  .section2 h1 {
+    font-size:60px;
+    text-align: center;
+    color: #5643fd;
+    font-family: "Audiowide", sans-serif;
+  }
+.section2 p{
+  font-size: 40px;
+  margin-left:15px;
+  font-family: "Audiowide", sans-serif;
+  color:#5643fd;
+}
+.section2 img{
+  float: left;
+  margin-left: 15px;
+  margin-right:15px;
+}
+  .section3{
+    background-color: #0c164f;
+    padding-bottom: 120px;
+  }
+  .section3 h1 {
+    font-size:60px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: #5643fd;
+  }
+  .section3 p{
+    font-size: 30px;
+    margin-left:15px;
+    font-family: "Audiowide", sans-serif;
+    color: #5643fd;
+  }
+  .section3 img{
+  float: left;
+  margin-left: 15px;
+  margin-right:15px;
+  border-radius: 50%;
+}
+  .section4{
+    background-color: #0c164f;
+  }
+  .section4 h1 {
+    font-size:60px;
+    color: #5643fd;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section5{
+    background-color: #0c164f;
+  }
+  .section5 h1{
+    color: #5643fd;
+    font-size:60px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section6{
+    background-color: #0c164f;
+    text-align: center;
+    margin: 50px;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section6 h1 {
+    font-size:60px;
+    color: #5643fd;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section6 p{
+    color: #5643fd;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section6 table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 30px;
+  width: 50%;
+  font-family: "Audiowide", sans-serif;
+  font-size: 30px;
+  color: #5643fd
+
+}
+  label {
+    font-family: "Audiowide", sans-serif;
+    padding: 12px 12px 12px 0;
+    color: #5643fd;
+  }
+  textarea {
+    height:5em;
+    width:25em;
+    
+  }
+  input[type=submit] {
+  background-color: #7649fe;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #ba1e68;
+}
+input[type=reset] {
+  font-family: "Audiowide", sans-serif;
+  background-color: #7649fe;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-color: #ba1e68;
+}
+input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  width: 2500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+  <div class="flex-container">
+    <!---->
+  <div>
+    <nav class="navbar">
+      <img src="images/mars.gif" height="45" width="45" style="float: left;">
+      <a href="#about">About</a>
+      <a href="#job">Job Description</a>
+      <a href="#responsibility">Responsibility and Duties</a>
+      <a href="#qualifications">Essential Qualifications</a>
+      <a href="#application"style="float:right">Application Form</a>
+    </nav>
+  </div>
+  <!---->
+  <div>
+  <section class="header">
+      <h1 class="title">Space Groove</h1>
+      <div>
+      <img src="images/mars.png" height="300" width="300">
+    </div>
+  </section>
+  </div>
+<!---->
+<div>
+  <section class="section2">
+    <h1 id="about">Our Story</h1>
+    <p>
+      <img src="images/CrewDragonabort.jpg"alt="Avatar" width="800" height="800" id="image1">
+      In the pursuit of its mission objectives in aeronautics and Space Administration, Space Groove continues pushing the boundaries of 
+      the future. Often, new technologies are needed to either enhance our current capabilities or enable future ones.
+      The Intergration Partner Program (IPP) provides the organizational structure for acquiring, maturing, technology and capabilities for Space Groove's Mission
+      Programs and Projects throughpartnerships with Industry, Academia, Government companies. As one of Space Groove's Mission Support 
+      Offices, the IPP supports all Mission Directorates. In addition to leveraged technology changes, dual-use technology-related 
+      partnerships, and technology solutions accelerates technology maturation.
+    </p>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section3">
+    <h1 id="job">Job Description</h1>
+   <p>
+    NASA is more than astronauts. We are scientists, engineers, IT specialists, human resources specialists, accountants, writers, technicians and many other kinds of people working 
+    together to break barriers to achieve the seemingly impossible.
+   </p>
+   
+
+   <p><img src="images/rocket.jpg" alt="rocket"width="800" height="675">
+
+    We continue NASA’s legacy of excellence through an unprecedented array of missions—from laying the foundation to expand our human presence in deep space to developing 
+    cutting-edge technologies to studying Earth’s system. We tackle each adventure with curiosity and innovation to leave an enduring impact on the world and humanit
+   </p>
+   <p>
+    Explore the Extraordinary: Align your talents with your passion and find out why NASA consistently is named a best place to work in the federal government. 
+    At NASA, you’ll have an opportunity to work on unique and challenging projects that truly make an impact on humanity. Learn more about the extraordinary things our team 
+    accomplishes on an everyday basis. Are you ready to explore the extraordinary?  
+   </p>
+   <p>
+    COVID-19 Update: NASA is implementing important measures across the agency to do our part to help slow the transmission of COVID-19 and protect our communities. 
+    To continue NASA’s inspiring mission, the safety of our workforce is our top priority.
+   </p>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section4">
+    <h1 id="responsibility">Responsibility and Duties</h1>
+    <table style="width:100%">
+      <tr>
+        <th>Responsibility</th>
+        <th>Duties</th>
+      </tr>
+
+      <tr>
+        <td>The HRIRB and the OPRP are responsible for ensuring the rights and well-being of human subjects and research participants in all Ames aeronautics and 
+          space flight investigations, where NASA Ames investigators are involved, whether as principal or co-investigators or NASA Ames points of contact, and whether 
+          the research is conducted at Ames or at other sites off campus.</td>
+        <td>On an annual basis, NASA is required by law to develop a budget, and report to Congress and the public on its fiscal management and programmatic performance. 
+          The NASA Strategic Plan is updated every four years to outline the strategic direction, goals, and priorities the Agency will pursue to achieve our Mission.</td>
+      </tr>
+
+      <tr>
+        <td>Approves, requires changes in, or disapproves research involving human volunteers participating in research activities
+        </td>
+
+        <td>NASA’s annual budget request is subject to the congressional appropriations process.  The Agency Appropriations Liaison, on behalf of NASA, is responsible for communicating and working with the House and Senate Committees on Appropriations to secure annual appropriations outcomes that maximize NASA’s budget request to achieve Agency strategic objectives, closely communicating with the Committees on implementation of enacted budgets via Operating 
+          Plans, and responding to Appropriations reporting requirement.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Establishes and follows written procedures for suspending or terminating previously approved research if warranted by findings in the continuing review or monitoring 
+          process
+        </td>
+
+        <td>Pursuant to the Chief Financial Officer’s Act, an Agency CFO is statutorily empowered to “direct, manage and provide policy guidance and oversight of 
+          agency financial management personnel, operations and activities” of their agencies.
+        </td>
+
+      </tr>
+      </table>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section5">
+    <h1 id="qualifications">Essential Qualifications</h1>
+    <table style="width:100%">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+      </tr>
+      </table>
+  </section>
+</div>
+  <!---->
+<div>
+  <section class="section6">
+    <h1 id="application">Application Form</h1>
+    <p>
+      COVID-19 Update: NASA is implementing important measures across the agency to do our part to help slow the transmission of COVID-19 and protect our communities. 
+    To continue NASA’s inspiring mission, the safety of our workforce is our topCOVID-19 Update: NASA is implementing important measures across the agency to do our part to help slow the transmission of COVID-19 and protect our communities. 
+    To continue NASA’s inspiring mission, the safety of our workforce is our topCOVID-19 Update: NASA is implementing important measures across the agency to do our part to help slow the transmission of COVID-19 and protect our communities. 
+    To continue NASA’s inspiring mission, the safety of our workforce is our top
+    </p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="postal">Postal Code:</label>
+        <input type="text" id="postal" name="postal"><br><br>
+
+        <label for="province">Province:</label>
+
+          <select id="province">
+            <option value="province">-- Please Select a Province --</option>
+            <option value="ontario">Ontario</option>
+            <option value="quebec">Quebec</option>
+            <option value="nova">Nova Scotia</option>
+            <option value="alberta">Alberta</option>
+          </select><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="Canada"><br><br>
+
+        <label for="part">Looking for:</label>
+        <input type="radio" id="part" name="part">
+        <label for="part">Part time</label>
+        <input type="radio" id="full" name="full"checked>
+        <label for="full">Full time</label><br><br>
+      
+
+        <label>Willing to travel:</label>
+        <input type="checkbox" id="never" name="never" value="never">
+        <label for="never">Never</label>
+        <input type="checkbox" id="10%" name="10%" value="10%">
+        <label for="10%">10% of the time</label>
+        <input type="checkbox" id="40%" name="40%" value="40%">
+        <label for="40%">40% of the time</label>
+        <input type="checkbox" id="50%" name="50%" value="50%">
+        <label for="50%">50% of the time</label><br><br>
+
+        <label for="file">Comment: </label>
+          <input type="file" id="file" name="file" accept="image/jpeg, image/gif">
+        <br><br>
+
+        </form>
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" placeholder="Enter text here"></textarea><br><br>
+
+        <input type="checkbox" id="listing" name="listing">
+        <label for="listing">Send me job listings</label>
+        <input type="radio" id="terms" name="terms">
+        <label for="terms">I agree to terms and conditions</label><br><br>
+    
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form> 
+  </section>
+</div>
+<!--footer-->
+  <div>
+    <footer class="footer">
+      <script src="https://my.gblearn.com/js/loadscript.js"></script>
+    </footer>
+  </div>
+
+</div>
+  </body>
+  </html>
+
