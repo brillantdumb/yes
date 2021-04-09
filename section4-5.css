@@ -1,0 +1,45 @@
+/* Section 4 Css*/
+.section4{
+    background-color: #0c164f;
+  }
+  .section4 h1 {
+    font-size:60px;
+    color: #5643fd;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section4 table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #0c164f;
+  font-family: "Audiowide", sans-serif;
+  }
+  .section4 td{
+    background-color: white;
+  }
+  /* Section 5 Css*/
+  .section5{
+    background-color: #0c164f;
+  }
+  .section5 h1{
+    color: #5643fd;
+    font-size:60px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+  }
+  .section5 td,th,caption{
+    background-color: white;
+  }
+
+  #t01 {
+  width: 50%;    
+  background-color: #f1f1c1;
+  padding: 0px;
+  border: 0px solid;
+}
+#t02 {
+  width: 50%;    
+  background-color: #f1f1c1;
+  padding: 0px;
+  border: 1px solid;
+}
