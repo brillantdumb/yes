@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Space Groove</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Assignment 3">
+<meta name="keywords" content="Assignment 3, lab,Html,CSS,images,Footer">
+<meta name="author" content="Jonathan Seltzer">
+<link href="images/mars.gif" rel="icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="css/header-nav.css">
+<link rel="stylesheet" href="css/section2-3.css">
+<link rel="stylesheet" href="css/section4-5.css">
+<link rel="stylesheet" href="css/section6.css">
+
+<style>
+body {
+    background-color: black;
+    margin:15px;
+    background-image: url(images/space.jpg);
+  }
+
+  /* Flexbox*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  width: 2500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/mars.gif" alt="mars" height="45" width="45" style="float: left;">
+    <a href="#about">About</a>
+    <a href="#job">Job Description</a>
+    <a href="#responsibility">Responsibility and Duties</a>
+    <a href="#qualifications">Essential Qualifications</a>
+    <a href="#application"style="float:right">Application Form</a>
+  </nav>
+  <div class="flex-container">
+  <!---->
+  <div>
+  <section class="header">
+      <h1 class="title">Space Groove</h1>
+      <div>
+      <img src="images/mars.png" alt="mars" height="300" width="300">
+    </div>
+  </section>
+  </div>
+  
+<!---->
+<div>
+  <section class="section2">
+    <h1 id="about">Our Story</h1>
+    <p>
+      <p id="image1"></p>
+      <p>
+      In the pursuit of its mission objectives in aeronautics and Space Administration, Space Groove continues pushing the boundaries of its own 
+      foundations. Often, new technologies are needed to either enhance our current capabilities or enable future ones.
+      The Interative Partner Program (IPP) provides the organizational structure for acquiring, maturing, technology and capabilities for Space Groove's Mission
+      Programs and Projects through investments and partnerships with Industry, Academia, Government Agencies. As one of Space Groove's Mission Support 
+      Offices, the IPP supports all Mission Directorates. In addition to leveraged technology investments, dual-use technology-related 
+      partnerships, and accelerates technology maturation.
+      </p>
+    </p>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section3">
+    <h1 id="job">Job Description</h1>
+   <p>
+    Space Groove is more than astronauts. We are scientists, engineers, IT specialists, technicians working 
+    together to break barriers to achieve the seemingly impossible.
+   </p>
+   
+
+   <p>
+    <p>
+      <img src="images/rocket.jpg" alt="rocket"width="800" height="675" usemap="#workmap">
+      
+      <map name="workmap">
+        <area shape="rect" coords="300,60,400,500" alt="Computer" href="images\inside.jpg">
+      </map>
+    </p>
+    
+    <p> We continue Space Groove's legacy of excellence through an array of missions—from laying the foundation to expand our human presence in space to developing 
+     technologies to studying Earth’s system.
+    </p> 
+    
+    </p>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section4">
+    <h1 id="responsibility">Responsibility and Duties</h1>
+    <table style="width:100%">
+      <tr>
+        <th id="t01">Responsibility</th>
+        <th id="t02">Duties</th>
+      </tr>
+
+      <tr>
+        <td>Ensuring the rights and well-being of human subjects and research participants in all Ames aeronautics and 
+          space flight investigations, where NASA Ames investigators are involved.</td>
+        <td>On an annual basis, NASA is required by law to develop a budget, and report to Congress and the public on its fiscal management and programmatic performance. 
+          The NASA Strategic Plan is updated every four years to outline the strategic direction, goals, and priorities the Agency will pursue to achieve our Mission.</td>
+      </tr>
+
+      <tr>
+        <td>Approves, requires changes in, or disapproves research involving human volunteers participating in research activities
+        </td>
+
+        <td>Space Groove's annual budget request is subject to the congressional appropriations process.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Establishes and follows written procedures for suspending or terminating previously approved research if warranted by findings in the continuing review or monitoring 
+          process
+        </td>
+        <td>Space Groove's annual budget request is subject to the congressional appropriations process.
+        </td>
+      </tr>
+      </table>
+  </section>
+</div>
+<!---->
+<div>
+  <section class="section5">
+    <h1 id="qualifications">Essential Qualifications</h1>
+    <table style="width:75%" id="outer">
+      <caption>Hello</caption>
+      <tr>
+        <td>
+          <table style="width:25%" id="inner">
+            <caption>Hello</caption>
+            <tr>
+
+              <th>hidden</th>
+              <th>hello</th>
+            </tr>
+              <td>hello</td>
+              <td>test</td>
+          </table>
+        </td>
+        <td>
+          <table style="width:25%" id="inner1">
+            <caption>Hello</caption>
+            <tr>
+
+              <th>hidden</th>
+              <th>hello</th>
+            </tr>
+              <td>hello</td>
+              <td>test</td>
+          </table>
+        </td>
+      </tr>
+    </table>
+    
+    
+    
+    
+</div>
+  <!---->
+<div>
+  <section class="section6">
+    <h1 id="application">Application Form</h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="postal">Postal Code:</label>
+        <input type="text" id="postal" name="postal"><br><br>
+
+        <label for="province">Province:</label>
+
+          <select id="province">
+            <option value="province">-- Please Select a Province --</option>
+            <option value="ontario">Ontario</option>
+            <option value="quebec">Quebec</option>
+            <option value="nova">Nova Scotia</option>
+            <option value="alberta">Alberta</option>
+          </select><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="Canada"><br><br>
+
+        <label for="part">Looking for:</label>
+        <input type="radio" id="part" name="part">
+        <label for="part">Part time</label>
+        <input type="radio" id="full" name="full"checked>
+        <label for="full">Full time</label><br><br>
+      
+
+        <label>Willing to travel:</label>
+        <input type="checkbox" id="never" name="never" value="never">
+        <label for="never">Never</label>
+        <input type="checkbox" id="10%" name="10%" value="10%">
+        <label for="10%">10% of the time</label>
+        <input type="checkbox" id="40%" name="40%" value="40%">
+        <label for="40%">40% of the time</label>
+        <input type="checkbox" id="50%" name="50%" value="50%">
+        <label for="50%">50% of the time</label><br><br>
+
+        <label for="resume">Upload Resume: </label>
+          <input type="file" id="resume" name="resume" accept="image/jpeg, image/gif">
+        <br><br>
+
+        </form>
+        <label>Comments:</label>
+        <textarea name="comment" placeholder="Enter text here"></textarea><br><br>
+
+        <input type="checkbox" id="listing" name="listing">
+        <label for="listing">Send me job listings</label>
+        <input type="radio" id="terms" name="terms">
+        <label for="terms">I agree to terms and conditions</label><br><br>
+    
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form> 
+  </section>
+</div>
+<!--footer-->
+<div>
+  <footer class="footer">
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+  </footer>
+</div>
+</div>
+  </body>
+  </html>
+
